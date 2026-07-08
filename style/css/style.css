@@ -8,11 +8,13 @@ body {
   position: relative;
   overflow-y: auto;
 }
+
 .nav {
   display: flex;
   justify-content: center;
   gap: 10px;
 }
+
 .highlighted-section {
   background-color: rgba(34, 34, 34, 0.85);
   border-left: 4px solid #ffd700;
