@@ -5,4 +5,4 @@ title: Home page
 
 # MIMSBZ3
 
-THis is fjlsdkjfa ;ksld;jf 
+# This is a comic strip (work in progress) website
