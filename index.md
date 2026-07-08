@@ -2,6 +2,8 @@
 
 This is a placeholder website for now, style and practically everything here are placeholders. But have fun anyways!
 
+<style>
+
 body {
   background: #000019;
   color: darkblue;
@@ -42,3 +44,5 @@ a {
   color: #ffd700;
 }
   
+
+</style>
