@@ -1,8 +1,8 @@
 body {
-  background: #000019;
+  background: #707070;
   margin: 0;
   font-family: 'Inter', system-ui, -apple-system, sans-serif;
-  line-height: 1.6;
+  line-height: 2;
   padding: 20px;
   position: relative;
   overflow-y: auto;
@@ -16,7 +16,7 @@ body {
 
 .highlighted-section {
   background-color: rgba(34, 34, 34, 0.85);
-  border-left: 4px solid #ffd700;
+  border-left: 4px solid ##FF6B35;
   padding: 20px;
   margin-top: 20px;
   border-radius: 8px;
@@ -25,47 +25,47 @@ body {
 
 h1, h2, h3, h4, body {
   font-family: 'Inter', system-ui, -apple-system, sans-serif;
-  color: #ffd700;
+  color: #FF6B35;
 }
 
 h2:hover {
-  text-shadow: 2px 2px 6px #ff6347, 0 0 12px #87cefa;
+  text-shadow: 2px 2px 6px #FFF400, 0 0 12px #87cefa;
   transition: all 0.3s ease-in-out;
 }
 
 a {
-  color: #ffd700;
+  color: #FF6B35;
 }
   
 @keyframes clickGlow {
   0% {
-    text-shadow: 1px 1px 4px #ff4500, 0 0 8px #00f0ff;
+    text-shadow: 1px 1px 4px #FF6B35, 0 0 8px #00f0ff;
   }
   50% {
     text-shadow: 1px 1px 8px #ffffff, 0 0 16px #ffffff;
   }
   100% {
-    text-shadow: 1px 1px 4px #ff4500, 0 0 8px #00f0ff;
+    text-shadow: 1px 1px 4px #FFF400, 0 0 8px #00f0ff;
   }
 }
 
 @keyframes navClickGlow {
   0% {
-    text-shadow: 1px 1px 4px #ff4500, 0 0 8px #00f0ff;
+    text-shadow: 1px 1px 4px #FFF400, 0 0 8px #00f0ff;
   }
   50% {
     text-shadow: 1px 1px 8px #ffffff, 0 0 16px #ffffff;
   }
   100% {
-    text-shadow: 1px 1px 4px #ff4500, 0 0 8px #00f0ff;
+    text-shadow: 1px 1px 4px #FFF400, 0 0 8px #00f0ff;
   }
 }
 
 a:link,
 a:visited {
-  color: #ffd700;
+  color: #FFF400;
   text-decoration: none;
-  text-shadow: 1px 1px 4px #ff4500, 0 0 8px #00f0ff;
+  text-shadow: 1px 1px 4px #FFF400, 0 0 8px #00f0ff;
   transition: all 0.3s ease-in-out;
   outline: none;
 }
@@ -84,9 +84,9 @@ a:active {
 }
 
 .nav a {
-  color: #ffd700;
+  color: #FF6B35;
   text-decoration: none;
-  text-shadow: 1px 1px 4px #ff4500, 0 0 8px #00f0ff;
+  text-shadow: 1px 1px 4px #FFF400, 0 0 8px #00f0ff;
   cursor: default;
   transition: all 0.3s ease-in-out;
   outline: none;
@@ -94,7 +94,7 @@ a:active {
 
 .nav a:hover,
 .nav a:focus {
-  color: #ffd700;
+  color: #FF6B35;
   text-shadow: 2px 2px 6px #ff6347,
                0 0 14px #87cefa,
                0 0 20px #00f0ff;
