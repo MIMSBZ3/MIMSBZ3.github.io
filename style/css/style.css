@@ -25,56 +25,56 @@ body {
 
 h1, h2, h3, h4, body {
   font-family: 'Inter', system-ui, -apple-system, sans-serif;
-  color: #ffd700;
+  color: #ffffff;
 }
 
 h2:hover {
-  text-shadow: 2px 2px 6px #ff6347, 0 0 12px #87cefa;
+  text-shadow: 2px 2px 6px #ffffff, 0 0 12px #87cefa;
   transition: all 0.3s ease-in-out;
 }
 
 a {
-  color: #ffd700;
+  color: #ffffff;
 }
   
 @keyframes clickGlow {
   0% {
-    text-shadow: 1px 1px 4px #ff4500, 0 0 8px #00f0ff;
+    text-shadow: 1px 1px 4px #ffffff, 0 0 8px #00f0ff;
   }
   50% {
     text-shadow: 1px 1px 8px #ffffff, 0 0 16px #ffffff;
   }
   100% {
-    text-shadow: 1px 1px 4px #ff4500, 0 0 8px #00f0ff;
+    text-shadow: 1px 1px 4px #ffffff, 0 0 8px #00f0ff;
   }
 }
 
 @keyframes navClickGlow {
   0% {
-    text-shadow: 1px 1px 4px #ff4500, 0 0 8px #00f0ff;
+    text-shadow: 1px 1px 4px #ffffff, 0 0 8px #ffffff;
   }
   50% {
     text-shadow: 1px 1px 8px #ffffff, 0 0 16px #ffffff;
   }
   100% {
-    text-shadow: 1px 1px 4px #ff4500, 0 0 8px #00f0ff;
+    text-shadow: 1px 1px 4px #ffffff, 0 0 8px #ffffff;
   }
 }
 
 a:link,
 a:visited {
-  color: #ffd700;
+  color: #ffffff;
   text-decoration: none;
-  text-shadow: 1px 1px 4px #ff4500, 0 0 8px #00f0ff;
+  text-shadow: 1px 1px 4px #ffffff, 0 0 8px #ffffff;
   transition: all 0.3s ease-in-out;
   outline: none;
 }
 
 a:hover,
 a:focus {
-  color: #fff3a0;
-  text-shadow: 2px 2px 6px #ff6347,
-               0 0 14px #87cefa,
+  color: #ffffff;
+  text-shadow: 2px 2px 6px #ffffff,
+               0 0 14px #ffffff,
                0 0 20px #00f0ff;
   outline: none;
 }
@@ -84,9 +84,9 @@ a:active {
 }
 
 .nav a {
-  color: #ffd700;
+  color: #ffffff;
   text-decoration: none;
-  text-shadow: 1px 1px 4px #ff4500, 0 0 8px #00f0ff;
+  text-shadow: 1px 1px 4px #ffffff, 0 0 8px #00f0ff;
   cursor: default;
   transition: all 0.3s ease-in-out;
   outline: none;
@@ -94,9 +94,9 @@ a:active {
 
 .nav a:hover,
 .nav a:focus {
-  color: #ffd700;
-  text-shadow: 2px 2px 6px #ff6347,
-               0 0 14px #87cefa,
+  color: #ffffff;
+  text-shadow: 2px 2px 6px #ffffff,
+               0 0 14px #ffffff,
                0 0 20px #00f0ff;
   outline: none;
 }
