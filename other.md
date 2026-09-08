@@ -5,4 +5,4 @@ title: Other
 
 # Other
 
-Sorry, still a placeholder here still too.
+Sorry, still a placeholder here too...!
